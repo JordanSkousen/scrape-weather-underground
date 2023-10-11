@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "csv-parse": "^5.5.1",
+    "csv-stringify": "^6.4.2",
+    "moment": "^2.29.4",
+    "node-fetch": "^3.3.2"
+  },
+  "name": "scrape-weather-underground",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "start:icons": "node src/scrape_icons.mjs",
+    "start:clean": "node src/clean_data.mjs"
+  }
+}
